@@ -11,19 +11,20 @@ def h():
 
 
 def getdata(event):
-    currow = medtab.focus()
-    contents = medtab.item(currow)
-    row = contents['values']
-    bn.delete(0, END)
-    bi.delete(0, END)
-    a.delete(0, END)
-    g.delete(0, END)
-    n.delete(0, END)
-    bn.insert(0, row[0])
-    bi.insert(0, row[1])
-    a.insert(0, row[2])
-    g.insert(0, row[3])
-    n.insert(0, row[4])
+    pass
+    # currow = medtab.focus()
+    # contents = medtab.item(currow)
+    # row = contents['values']
+    # bn.delete(0, END)
+    # bi.delete(0, END)
+    # a.delete(0, END)
+    # g.delete(0, END)
+    # n.delete(0, END)
+    # bn.insert(0, row[0])
+    # bi.insert(0, row[1])
+    # a.insert(0, row[2])
+    # g.insert(0, row[3])
+    # n.insert(0, row[4])
 
 
 def fetchdata():
@@ -99,7 +100,8 @@ def update():
 
 
 def delete():
-    pass
+    rt.destroy()
+    import delete_win
     """bi4 = bi.get()
     db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
     mycursor = db.cursor()
@@ -172,7 +174,7 @@ width= rt.winfo_screenwidth()
 height= rt.winfo_screenheight()
 rt.title("Books Database")
 rt.geometry("%dx%d" % (width, height))
-bg = ImageTk.PhotoImage(file="pic2.jpg", master=rt)
+bg = ImageTk.PhotoImage(file="pic3.jpg", master=rt)
 bglb = Label(rt, image=bg)
 bglb.place(x=0, y=0, relwidth=1, relheight=1)
 frame1 = Frame(rt, bg="white")
@@ -240,11 +242,11 @@ scrollx.pack(side=BOTTOM, fill=X)
 scrolly.pack(side=RIGHT, fill=Y)
 scrollx.config(command=medtab.xview)
 scrolly.config(command=medtab.yview)
-medtab.heading("a", text="Book Name")
-medtab.heading("b", text="Book ID")
-medtab.heading("c", text="Author")
-medtab.heading("d", text="Genre")
-medtab.heading("e", text="No. of copies")
+medtab.heading("a", text="Book ID")
+medtab.heading("b", text="Book Name")
+medtab.heading("c", text="No. of Copies")
+medtab.heading("d", text="Author")
+medtab.heading("e", text="Genre")
 medtab['show'] = "headings"
 medtab.column("a", width=100)
 medtab.column("b", width=100)
@@ -253,7 +255,7 @@ medtab.column("d", width=100)
 medtab.column("e", width=100)
 medtab.pack(fill=BOTH, expand=1)
 medtab.bind("<ButtonRelease-1>", getdata)
-
+fetchdata()
 # b_1 = Button(rt, text="Back",font="Constantia 10 bold", width='15', height='1',command=h )
 # b_1.place(x=555,y=250)
 rt.mainloop()

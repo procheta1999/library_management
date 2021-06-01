@@ -11,7 +11,7 @@ def bd():
 
 def sd():
     rt.destroy()
-    import sd_win
+    import sd
 
 
 def lg():
@@ -24,7 +24,7 @@ width= rt.winfo_screenwidth()
 height= rt.winfo_screenheight()
 rt.title("Menu")
 rt.geometry("%dx%d" % (width, height))
-bg = ImageTk.PhotoImage(file="pic2.jpg", master=rt)
+bg = ImageTk.PhotoImage(file="pic3.jpg", master=rt)
 bglb = Label(rt, image=bg)
 bglb.place(x=0, y=0, relwidth=1, relheight=1)
 t = Label(rt, text="Library Management System", font="Constantia 15 bold", bg="cyan", fg="red", padx=25, pady=5)
