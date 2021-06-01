@@ -3,24 +3,35 @@ from tkinter import ttk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import mysql.connector
-
+d=['0']
 
 def h():
     rt.destroy()
-    import mn_win
+    import bd_win
 
-
+def info():
+    db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
+    mycursor = db.cursor()
+    mycursor.execute("select id from books_details")
+    rows = mycursor.fetchall()
+    for row in rows:
+        (row1)=row
+        print(str(row1[0]))
+        d.append(row1[0])
+    print(d)
+    db.commit()
+    db.close()
 def getdata(event):
     currow = medtab.focus()
     contents = medtab.item(currow)
     row = contents['values']
     bn.delete(0, END)
-    bi.delete(0, END)
+    # bi.delete(0, END)
     a.delete(0, END)
     g.delete(0, END)
     n.delete(0, END)
     bn.insert(0, row[0])
-    bi.insert(0, row[1])
+    # bi.insert(0, row[1])
     a.insert(0, row[2])
     g.insert(0, row[3])
     n.insert(0, row[4])
@@ -70,8 +81,7 @@ def add():
 
 
 def update():
-    rt.destroy()
-    import update_win
+    pass
     # bn3 = bn.get()
     # bi3 = bi.get()
     # a3 = a.get()
@@ -166,35 +176,37 @@ def fetchdata1():
         db.rollback()
         db.close()
 
-
+info()
 rt = Tk()
 width= rt.winfo_screenwidth()
 height= rt.winfo_screenheight()
-rt.title("Books Database")
+rt.title("Update Book Information")
 rt.geometry("%dx%d" % (width, height))
 bg = ImageTk.PhotoImage(file="pic2.jpg", master=rt)
 bglb = Label(rt, image=bg)
 bglb.place(x=0, y=0, relwidth=1, relheight=1)
 frame1 = Frame(rt, bg="white")
-frame1.place(x=10, y=10, width=1230, height=700)
+frame1.place(x=10, y=10, width=1230, height=530)
 frame2 = Frame(frame1, bg="cyan")
-frame2.place(x=20, y=20, width=1190, height=50)
-t = Label(frame2, text="Books Database", font="Constantia 15 bold", fg="red", bg="cyan")
+frame2.place(x=20, y=20, width=1190, height=70)
+t = Label(frame2, text="Update Book Information", font="Constantia 15 bold", fg="red", bg="cyan")
 t.place(x=565, y=10)
 ta = Button(frame2, text="Back", font="Constantia 10 bold", width='15', height='1', command=h)
 ta.place(x=1045, y=10)
 frame3 = Frame(frame1, bg="#f6ebeb")
-frame3.place(x=20, y=80, width=420, height=435)
-t1 = Label(frame3, text="Manage Books", font="Constantia 15 bold underline", bg="#f6ebeb")
+frame3.place(x=20, y=80, width=430, height=435)
+t1 = Label(frame3, text="Update", font="Constantia 15 bold underline", bg="#f6ebeb")
 t1.grid(row=0, columnspan=2, pady=15)
-t2 = Label(frame3, text="Book Name:", font="Constantia 15 bold", bg="#f6ebeb")
+t2 = Label(frame3, text="Book ID:", font="Constantia 15 bold", bg="#f6ebeb")
 t2.grid(row=1, column=0, pady=15, padx=10, sticky="w")
-bn = Entry(frame3, font="Constantia 15 bold")
-bn.grid(row=1, column=1, pady=15, padx=10, sticky="w")
-t3 = Label(frame3, text="Book ID:", font="Constantia 15 bold", bg="#f6ebeb")
-t3.grid(row=2, column=0, pady=15, padx=10, sticky="w")
-bi = Entry(frame3, font="Constantia 15 bold")
-bi.grid(row=2, column=1, pady=15, padx=10, sticky="w")
+bn = ttk.Combobox(frame3, font="Constantia 15 bold", state="readonly")
+bn['values']=tuple(d)
+bn.current(0)
+bn.grid(row=1, column=1, pady=5, padx=5, sticky="w")
+# t3 = Label(frame3, text="Book ID:", font="Constantia 15 bold", bg="#f6ebeb")
+# t3.grid(row=2, column=0, pady=15, padx=10, sticky="w")
+# bi = Entry(frame3, font="Constantia 15 bold")
+# bi.grid(row=2, column=1, pady=15, padx=10, sticky="w")
 t4 = Label(frame3, text="Author:", font="Constantia 15 bold", bg="#f6ebeb")
 t4.grid(row=3, column=0, pady=15, padx=10, sticky="w")
 a = Entry(frame3, font="Constantia 15 bold")
@@ -209,18 +221,18 @@ n = Entry(frame3, font="Constantia 15 bold")
 n.grid(row=5, column=1, pady=15, padx=10, sticky="w")
 frame4 = Frame(frame3, bg="#f6ebeb")
 frame4.place(x=8, y=370, width=390, height=50)
-addbt = Button(frame4, text="Add", width=10, command=add).grid(row=0, column=1, padx=10, pady=10)
+addbt = Button(frame4, text="Update", width=10, command=update).grid(row=0, column=1, padx=10, pady=10)
 # updatebt = Button(frame4, text="Update", width=10, command=update).grid(row=0, column=1, padx=10, pady=10)
 
 clrt = Button(frame4, text="Clear", width=10, command=cleardata).grid(row=0, column=2, padx=10, pady=10)
-frame6 = Frame(frame1, bg="#f6ebeb")
-frame6.place(x=20, y=530, width=420, height=150)
-t9 = Label(frame6, text="Update or Delete Books", font="Constantia 15 bold underline", bg="#f6ebeb")
-t9.grid(row=0, column=1, columnspan=30, padx=90, pady=10)
-updatebt = Button(frame6, text="Update", width=10, command=update).grid(row=2, column=1, padx=70, pady=40)
-detebt = Button(frame6, text="Delete", width=10, command=delete).grid(row=2, column=2, padx=10, pady=20)
+# frame6 = Frame(frame1, bg="#f6ebeb")
+# frame6.place(x=20, y=530, width=420, height=150)
+# t9 = Label(frame6, text="Update or Delete Books", font="Constantia 15 bold underline", bg="#f6ebeb")
+# t9.grid(row=0, column=1, columnspan=30, padx=90, pady=10)
+# updatebt = Button(frame6, text="Update", width=10, command=update).grid(row=2, column=1, padx=70, pady=40)
+# detebt = Button(frame6, text="Delete", width=10, command=delete).grid(row=2, column=2, padx=10, pady=20)
 frame5 = Frame(frame1, bg="#f6ebeb")
-frame5.place(x=450, y=80, width=760, height=600)
+frame5.place(x=450, y=80, width=760, height=435)
 t7 = Label(frame5, text="Search By", font="Constantia 15 bold", bg="#f6ebeb")
 t7.grid(row=0, column=0, pady=10, padx=10, sticky="w")
 comboser = ttk.Combobox(frame5, width=10, font="Constantia 15 bold", state='readonly')
@@ -232,7 +244,7 @@ lsearch.grid(row=0, column=2, pady=10, padx=10, sticky="w")
 serbt = Button(frame5, text="Search", width=10, command=fetchdata1).grid(row=0, column=3, padx=10, pady=10)
 showbt = Button(frame5, text="Show All", width=10, command=fetchdata).grid(row=0, column=4, padx=10, pady=10)
 tabfrm = Frame(frame5, bg="#f6ebeb")
-tabfrm.place(x=10, y=50, width=740, height=540)
+tabfrm.place(x=10, y=50, width=740, height=370)
 scrollx = Scrollbar(tabfrm, orient=HORIZONTAL)
 scrolly = Scrollbar(tabfrm, orient=VERTICAL)
 medtab = ttk.Treeview(tabfrm, columns=("a", "b", "c", "d", "e"), xscrollcommand=scrollx.set, yscrollcommand=scrolly.set)

@@ -14,7 +14,7 @@ def r():
     import rg_win
 def bd():
     rt.destroy()
-    import bd_win
+    import mn_win
 
 def log():
     global e
@@ -40,8 +40,10 @@ def log():
      db.close()
 
 rt=Tk()
+width= rt.winfo_screenwidth()
+height= rt.winfo_screenheight()
 rt.title("Students Database")
-rt.geometry("1250x550")
+rt.geometry("%dx%d" % (width, height))
 rt.maxsize(1250,550)
 rt.minsize(1250,550)
 bg=ImageTk.PhotoImage(file="pic2.jpg",master=rt)
