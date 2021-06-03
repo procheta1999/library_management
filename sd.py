@@ -1,17 +1,29 @@
 from tkinter import *
 from tkinter import ttk
-from tkinter import ttk,messagebox
-from PIL import Image,ImageTk
+from tkinter import ttk, messagebox
+from PIL import Image, ImageTk
 import mysql.connector
 from datetime import date
 from datetime import timedelta
 from datetime import datetime
-
+sname=''
+sid=''
+isdate=''
+rtdate=''
+no=''
 def h():
     rt.destroy()
     import mn_win
 
+
 def c():
+    global sname,sid,isdate,rtdate,no
+    sname = bn.get()
+    sid = bi.get()
+    isdate = a.get()
+    rtdate = g.get()
+    no = n.get()
+    # print(sname, sid, isdate, rtdate, no)
     rt.destroy()
     import fine_win
     """a=bi.get()
@@ -42,8 +54,6 @@ def c():
 
 
 
-
-
 def getdata(event):
     currow = medtab.focus()
     contents = medtab.item(currow)
@@ -59,6 +69,7 @@ def getdata(event):
     g.insert(0, row[3])
     n.insert(0, row[4])
 
+
 def fetchdata():
     db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
     mycursor = db.cursor()
@@ -70,6 +81,7 @@ def fetchdata():
         medtab.insert('', END, values=row)
     db.commit()
     db.close()
+
 
 def add():
     pass
@@ -96,22 +108,21 @@ def add():
             db.rollback()
             db.close()"""
 
+
 def re():
-    pass
-    """
-    Today=date.today()
+    today = date.today()
     global nd
     bi3 = bi.get()
-    nd = Today + timedelta(days=30)
-    ndy=int(nd.strftime("%Y"))
-    ndm=int(nd.strftime("%m"))
-    ndd=int(nd.strftime("%d"))
-    nd=str(nd)
+    nd = today + timedelta(days=30)
+    ndy = int(nd.strftime("%Y"))
+    ndm = int(nd.strftime("%m"))
+    ndd = int(nd.strftime("%d"))
+    nd = str(nd)
     db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
     mycursor = db.cursor()
     try:
-        sql = "update students_details set rdate=%s,ry=%s,rm=%s,rd=%s where student_id=%s"
-        val = (nd,ndy,ndm,ndd,bi3,)
+        sql = "update students_details set idate=%s,rdate=%s,ry=%s,rm=%s,rd=%s where student_id=%s"
+        val = (today, nd, ndy, ndm, ndd, bi3,)
         mycursor.execute(sql, val)
         db.commit()
         messagebox.showinfo("information", "Record Updated successfully")
@@ -125,7 +136,8 @@ def re():
     except EXCEPTION as e:
         print(e)
         db.rollback()
-        db.close()"""
+        db.close()
+
 
 def delete():
     pass
@@ -150,6 +162,7 @@ def delete():
         db.rollback()
         db.close()"""
 
+
 def cleardata():
     bn.delete(0, 'end')
     bi.delete(0, 'end')
@@ -157,6 +170,7 @@ def cleardata():
     g.delete(0, 'end')
     n.delete(0, 'end')
     bn.focus_set()
+
 
 def fetchdata1():
     pass
@@ -174,94 +188,100 @@ def fetchdata1():
     db.close()"""
 
 
-rt=Tk()
-width= rt.winfo_screenwidth()
-height= rt.winfo_screenheight()
+rt = Tk()
+width = rt.winfo_screenwidth()
+height = rt.winfo_screenheight()
 rt.title("Students Database")
 rt.geometry("%dx%d" % (width, height))
-bg=ImageTk.PhotoImage(file="pic3.jpg",master=rt)
-bglb=Label(rt,image=bg)
-bglb.place(x=0,y=0,relwidth=1,relheight=1)
-frame1=Frame(rt,bg="white")
-frame1.place(x=10,y=10,width=1230,height=530)
-frame2=Frame(frame1,bg="cyan")
-frame2.place(x=20,y=20,width=1190,height=50)
-t=Label(frame2,text="Students Database",font="Constantia 15 bold",fg="red",bg="cyan")
-t.place(x=565,y=10)
-ta = Button(frame2, text="Back",font="Constantia 10 bold", width='15', height='1', command=h)
-ta.place(x=1045,y=10)
-frame3=Frame(frame1,bg="#f6ebeb")
-frame3.place(x=20,y=80,width=420,height=435)
-t1=Label(frame3,text="Manage Students",font="Constantia 15 bold underline",bg="#f6ebeb")
-t1.grid(row=0,columnspan=2,pady=5)
-t2=Label(frame3,text="Student Name:",font="Constantia 15 bold",bg="#f6ebeb")
-t2.grid(row=1,column=0,pady=5,padx=5,sticky="w")
-bn=Entry(frame3,font="Constantia 15 bold")
-bn.grid(row=1,column=1,pady=5,padx=5,sticky="w")
-t3=Label(frame3,text="Student ID:",font="Constantia 15 bold",bg="#f6ebeb")
-t3.grid(row=2,column=0,pady=5,padx=5,sticky="w")
-bi=Entry(frame3,font="Constantia 15 bold")
-bi.grid(row=2,column=1,pady=5,padx=5,sticky="w")
-t4=Label(frame3,text="Issue Date:",font="Constantia 15 bold",bg="#f6ebeb")
-t4.grid(row=3,column=0,pady=5,padx=5,sticky="w")
-a=Entry(frame3,font="Constantia 15 bold")
-a.grid(row=3,column=1,pady=5,padx=5,sticky="w")
-t5=Label(frame3,text="Return Date:",font="Constantia 15 bold",bg="#f6ebeb")
-t5.grid(row=4,column=0,pady=5,padx=5,sticky="w")
-g=Entry(frame3,font="Constantia 15 bold")
-g.grid(row=4,column=1,pady=5,padx=5,sticky="w")
-t6=Label(frame3,text="No. of books:",font="Constantia 15 bold",bg="#f6ebeb")
-t6.grid(row=5,column=0,pady=5,padx=5,sticky="w")
-n=Entry(frame3,font="Constantia 15 bold")
-n.grid(row=5,column=1,pady=5,padx=5,sticky="w")
+bg = ImageTk.PhotoImage(file="pic3.jpg", master=rt)
+bglb = Label(rt, image=bg)
+bglb.place(x=0, y=0, relwidth=1, relheight=1)
+frame1 = Frame(rt, bg="white")
+frame1.place(x=180, y=100, width=1230, height=530)
+frame2 = Frame(frame1, bg="cyan")
+frame2.place(x=20, y=20, width=1190, height=50)
+t = Label(frame2, text="Students Database", font="Constantia 15 bold", fg="red", bg="cyan")
+t.place(x=565, y=10)
+ta = Button(frame2, text="Back", font="Constantia 10 bold", width='15', height='1', command=h)
+ta.place(x=1045, y=10)
+frame3 = Frame(frame1, bg="#f6ebeb")
+frame3.place(x=20, y=80, width=420, height=435)
+t1 = Label(frame3, text="Manage Students", font="Constantia 15 bold underline", bg="#f6ebeb")
+t1.grid(row=0, columnspan=2, pady=5)
+t2 = Label(frame3, text="Student Name:", font="Constantia 15 bold", bg="#f6ebeb")
+t2.grid(row=1, column=0, pady=5, padx=5, sticky="w")
+bn = Entry(frame3, font="Constantia 15 bold")
+bn.grid(row=1, column=1, pady=5, padx=5, sticky="w")
+
+t3 = Label(frame3, text="Student ID:", font="Constantia 15 bold", bg="#f6ebeb")
+t3.grid(row=2, column=0, pady=5, padx=5, sticky="w")
+bi = Entry(frame3, font="Constantia 15 bold")
+bi.grid(row=2, column=1, pady=5, padx=5, sticky="w")
+t4 = Label(frame3, text="Issue Date:", font="Constantia 15 bold", bg="#f6ebeb")
+t4.grid(row=3, column=0, pady=5, padx=5, sticky="w")
+a = Entry(frame3, font="Constantia 15 bold")
+a.grid(row=3, column=1, pady=5, padx=5, sticky="w")
+t5 = Label(frame3, text="Return Date:", font="Constantia 15 bold", bg="#f6ebeb")
+t5.grid(row=4, column=0, pady=5, padx=5, sticky="w")
+g = Entry(frame3, font="Constantia 15 bold")
+g.grid(row=4, column=1, pady=5, padx=5, sticky="w")
+t6 = Label(frame3, text="No. of books:", font="Constantia 15 bold", bg="#f6ebeb")
+t6.grid(row=5, column=0, pady=5, padx=5, sticky="w")
+n = Entry(frame3, font="Constantia 15 bold")
+n.grid(row=5, column=1, pady=5, padx=5, sticky="w")
+
 # t7=Label(frame3,text="Actual Date:",font="Constantia 15 bold",bg="#f6ebeb")
 # t7.grid(row=6,column=0,pady=5,padx=5,sticky="w")
 # t8=Label(frame3,text=str(date.today()),font="Constantia 15 bold",bg="white").grid(row=6,column=1,pady=5,padx=5,sticky="w")
-#t9=Label(frame3,text=str(date.today()),font="Constantia 15 bold",bg="white").grid(row=7,column=0,pady=5,padx=5,sticky="w")
+# t9=Label(frame3,text=str(date.today()),font="Constantia 15 bold",bg="white").grid(row=7,column=0,pady=5,padx=5,sticky="w")
 # t9=Label(frame3,text="Fine Amt:",font="Constantia 15 bold",bg="#f6ebeb")
 # t9.grid(row=7,column=0,pady=5,padx=5,sticky="w")
-#t10=Label(frame3,text=str(fi),font="Constantia 15 bold",bg="white").grid(row=7,column=1,pady=5,padx=5,sticky="w")
-frame4=Frame(frame3,bg="#f6ebeb")
-frame4.place(x=8,y=370,width=390,height=50)
-#addbt=Button(frame4,text="Add",width=10,command=add).grid(row=0,column=0,padx=10,pady=10)
-updatebt=Button(frame4,text="Return",width=10,command=c).place(x=30,y=13)
-updatebt1=Button(frame4,text="Reissue",width=10,command=re).place(x=155,y=13)
-detebt=Button(frame4,text="Clear",width=10,command=cleardata).place(x=280,y=13)
-#clrt=Button(frame4,text="Clear",width=10,command=cleardata).grid(row=0,column=3,padx=10,pady=10)
-frame5=Frame(frame1,bg="#f6ebeb")
-frame5.place(x=450,y=80,width=760,height=435)
-#t7=Label(frame5,text="Search By",font="Constantia 15 bold",bg="#f6ebeb")
-#t7.grid(row=0,column=0,pady=10,padx=10,sticky="w")
-#comboser=ttk.Combobox(frame5,width=10,font="Constantia 15 bold",state='readonly')
-#comboser['values']=("Select","Book ID","Author","Genre")
-#comboser.current(0)
-#comboser.grid(row=0,column=1,padx=10,pady=10)
-#lsearch=Entry(frame5,font="Constantia 15 bold")
-#lsearch.grid(row=0,column=2,pady=10,padx=10,sticky="w")
-#serbt=Button(frame5,text="Search",width=10,command=fetchdata1).grid(row=0,column=3,padx=10,pady=10)
-#showbt=Button(frame5,text="Show All",width=10,command=fetchdata).grid(row=0,column=4,padx=10,pady=10)
-tabfrm=Frame(frame5,bg="#f6ebeb")
-tabfrm.place(x=10,y=50,width=740,height=375)
-scrollx=Scrollbar(tabfrm,orient=HORIZONTAL)
-scrolly=Scrollbar(tabfrm,orient=VERTICAL)
-medtab=ttk.Treeview(tabfrm,columns=("a","b","c","d","e"),xscrollcommand=scrollx.set,yscrollcommand=scrolly.set)
-scrollx.pack(side=BOTTOM,fill=X)
-scrolly.pack(side=RIGHT,fill=Y)
+# t10=Label(frame3,text=str(fi),font="Constantia 15 bold",bg="white").grid(row=7,column=1,pady=5,padx=5,sticky="w")
+frame4 = Frame(frame3, bg="#f6ebeb")
+frame4.place(x=8, y=370, width=390, height=50)
+# addbt=Button(frame4,text="Add",width=10,command=add).grid(row=0,column=0,padx=10,pady=10)
+updatebt = Button(frame4, text="Return", width=10, command=c).place(x=30, y=13)
+updatebt1 = Button(frame4, text="Reissue", width=10, command=re).place(x=155, y=13)
+detebt = Button(frame4, text="Clear", width=10, command=cleardata).place(x=280, y=13)
+# clrt=Button(frame4,text="Clear",width=10,command=cleardata).grid(row=0,column=3,padx=10,pady=10)
+frame5 = Frame(frame1, bg="#f6ebeb")
+frame5.place(x=450, y=80, width=760, height=435)
+# t7=Label(frame5,text="Search By",font="Constantia 15 bold",bg="#f6ebeb")
+# t7.grid(row=0,column=0,pady=10,padx=10,sticky="w")
+# comboser=ttk.Combobox(frame5,width=10,font="Constantia 15 bold",state='readonly')
+# comboser['values']=("Select","Book ID","Author","Genre")
+# comboser.current(0)
+# comboser.grid(row=0,column=1,padx=10,pady=10)
+# lsearch=Entry(frame5,font="Constantia 15 bold")
+# lsearch.grid(row=0,column=2,pady=10,padx=10,sticky="w")
+# serbt=Button(frame5,text="Search",width=10,command=fetchdata1).grid(row=0,column=3,padx=10,pady=10)
+# showbt=Button(frame5,text="Show All",width=10,command=fetchdata).grid(row=0,column=4,padx=10,pady=10)
+tabfrm = Frame(frame5, bg="#f6ebeb")
+tabfrm.place(x=10, y=50, width=740, height=375)
+scrollx = Scrollbar(tabfrm, orient=HORIZONTAL)
+scrolly = Scrollbar(tabfrm, orient=VERTICAL)
+medtab = ttk.Treeview(tabfrm, columns=("a", "b", "c", "d", "e"), xscrollcommand=scrollx.set, yscrollcommand=scrolly.set)
+scrollx.pack(side=BOTTOM, fill=X)
+scrolly.pack(side=RIGHT, fill=Y)
 scrollx.config(command=medtab.xview)
 scrolly.config(command=medtab.yview)
-medtab.heading("a",text="Student Name")
-medtab.heading("b",text="Student ID")
-medtab.heading("c",text="Issue Date")
-medtab.heading("d",text="Return Date")
-medtab.heading("e",text="No. of books")
-medtab['show']="headings"
-medtab.column("a",width=100)
-medtab.column("b",width=100)
-medtab.column("c",width=100)
-medtab.column("d",width=100)
-medtab.column("e",width=100)
-medtab.pack(fill=BOTH,expand=1)
-medtab.bind("<ButtonRelease-1>",getdata)
+medtab.heading("a", text="Student Name")
+medtab.heading("b", text="Student ID")
+medtab.heading("c", text="Issue Date")
+medtab.heading("d", text="Return Date")
+medtab.heading("e", text="No. of books")
+medtab['show'] = "headings"
+medtab.column("a", width=100)
+medtab.column("b", width=100)
+medtab.column("c", width=100)
+medtab.column("d", width=100)
+medtab.column("e", width=100)
+medtab.pack(fill=BOTH, expand=1)
+medtab.bind("<ButtonRelease-1>", getdata)
 fetchdata()
 
 rt.mainloop()
+
+
+# def sname():
+#     return bn.get()
