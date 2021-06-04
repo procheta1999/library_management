@@ -9,33 +9,32 @@ def h():
     rt.destroy()
     import bd_win
 
-def info():
-    db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
-    mycursor = db.cursor()
-    mycursor.execute("select id from books_details")
-    rows = mycursor.fetchall()
-    for row in rows:
-        (row1)=row
-        print(str(row1[0]))
-        d.append(row1[0])
-    print(d)
-    db.commit()
-    db.close()
+# def info():
+#     db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
+#     mycursor = db.cursor()
+#     mycursor.execute("select id from books_details")
+#     rows = mycursor.fetchall()
+#     for row in rows:
+#         (row1)=row
+#         print(str(row1[0]))
+#         d.append(row1[0])
+#     print(d)
+#     db.commit()
+#     db.close()
 def getdata(event):
-    pass
-    # currow = medtab.focus()
-    # contents = medtab.item(currow)
-    # row = contents['values']
-    # bn.delete(0, END)
+    currow = medtab.focus()
+    contents = medtab.item(currow)
+    row = contents['values']
+    bn.delete(0, END)
     # # bi.delete(0, END)
-    # a.delete(0, END)
-    # g.delete(0, END)
-    # n.delete(0, END)
-    # bn.insert(0, row[0])
+    a.delete(0, END)
+    g.delete(0, END)
+    n.delete(0, END)
+    bn.insert(0, row[0])
     # # bi.insert(0, row[1])
-    # a.insert(0, row[2])
-    # g.insert(0, row[3])
-    # n.insert(0, row[4])
+    a.insert(0, row[3])
+    g.insert(0, row[4])
+    n.insert(0, row[2])
 
 
 def fetchdata():
@@ -176,7 +175,7 @@ def fetchdata1():
         db.rollback()
         db.close()
 
-info()
+#info()
 rt = Tk()
 width= rt.winfo_screenwidth()
 height= rt.winfo_screenheight()
@@ -199,9 +198,7 @@ t1 = Label(frame3, text="Update", font="Constantia 15 bold underline", bg="#f6eb
 t1.grid(row=0, columnspan=2, pady=15)
 t2 = Label(frame3, text="Book ID:", font="Constantia 15 bold", bg="#f6ebeb")
 t2.grid(row=1, column=0, pady=15, padx=10, sticky="w")
-bn = ttk.Combobox(frame3, font="Constantia 15 bold", state="readonly")
-bn['values']=tuple(d)
-bn.current(0)
+bn = Entry(frame3, font="Constantia 15 bold")
 bn.grid(row=1, column=1, pady=5, padx=5, sticky="w")
 # t3 = Label(frame3, text="Book ID:", font="Constantia 15 bold", bg="#f6ebeb")
 # t3.grid(row=2, column=0, pady=15, padx=10, sticky="w")
@@ -258,8 +255,8 @@ medtab.heading("c", text="No. of Copies")
 medtab.heading("d", text="Author")
 medtab.heading("e", text="Genre")
 medtab['show'] = "headings"
-medtab.column("a", width=100)
-medtab.column("b", width=100)
+medtab.column("a", width=50)
+medtab.column("b", width=150)
 medtab.column("c", width=100)
 medtab.column("d", width=100)
 medtab.column("e", width=100)
