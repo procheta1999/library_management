@@ -61,10 +61,10 @@ def add():
         messagebox.showerror("Error", "All fields are required")
     else:
         bn2 = bn.get()
-        bi2 = bi.get()
-        a2 = a.get()
-        g2 = g.get()
-        n2 = n.get()
+        # bi2 = bi.get()
+        # a2 = a.get()
+        # g2 = g.get()
+        # n2 = n.get()
         db = mysql.connector.connect(host="localhost", user="root", password="", database="books")
         mycursor = db.cursor()
         try:
@@ -83,9 +83,9 @@ def add():
 
 def update():
     bn3 = bn.get()
-    a3 = a.get()
-    g3 = g.get()
-    n3 = n.get()
+    # a3 = a.get()
+    # g3 = g.get()
+    # n3 = n.get()
     if bn3=='Select':
         messagebox.showinfo("error", "Choose Book ID")
     else:
@@ -98,9 +98,9 @@ def update():
             db.commit()
             messagebox.showinfo("information", "Record Updated successfully")
             bn.delete(0, END)
-            a.delete(0, END)
-            g.delete(0, END)
-            n.delete(0, END)
+            # a.delete(0, END)
+            # g.delete(0, END)
+            # n.delete(0, END)
             fetchdata()
         except EXCEPTION as e:
             print(e)
@@ -132,10 +132,10 @@ def delete():
 
 def cleardata():
     bn.delete(0, 'end')
-    bi.delete(0, 'end')
-    a.delete(0, 'end')
-    g.delete(0, 'end')
-    n.delete(0, 'end')
+    # bi.delete(0, 'end')
+    # a.delete(0, 'end')
+    # g.delete(0, 'end')
+    # n.delete(0, 'end')
     bn.focus_set()
 
 

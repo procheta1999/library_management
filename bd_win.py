@@ -64,6 +64,7 @@ def add():
             messagebox.showinfo("information", "Record Inserted successfully")
             # fectdata()
             cleardata()
+            fetchdata()
         except EXCEPTION as e:
             print(e)
             db.rollback()
