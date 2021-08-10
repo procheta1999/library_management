@@ -1,0 +1,1742 @@
+('C:\\Users\\Procheta Bhattachary\\library\\build\\Project1\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\os.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\stat.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pdb.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\socket.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\base64.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\optparse.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ssl.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tty.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\runpy.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\shlex.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\imp.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('babel.numbers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\numbers.py',
+   'PYMODULE'),
+  ('babel',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\__init__.py',
+   'PYMODULE'),
+  ('babel.dates',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\dates.py',
+   'PYMODULE'),
+  ('babel.util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\util.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('babel.localtime',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\localtime\\__init__.py',
+   'PYMODULE'),
+  ('babel.localtime._unix',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\localtime\\_unix.py',
+   'PYMODULE'),
+  ('babel.localtime._win32',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\localtime\\_win32.py',
+   'PYMODULE'),
+  ('babel.localedata',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\localedata.py',
+   'PYMODULE'),
+  ('babel._compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\_compat.py',
+   'PYMODULE'),
+  ('babel.core',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\core.py',
+   'PYMODULE'),
+  ('babel.plural',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\babel\\plural.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('rg_win', 'C:\\Users\\Procheta Bhattachary\\library\\rg_win.py', 'PYMODULE'),
+  ('Project1',
+   'C:\\Users\\Procheta Bhattachary\\library\\Project1.py',
+   'PYMODULE'),
+  ('mysql.connector',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\fabric\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.connection',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\fabric\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.catch23',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\catch23.py',
+   'PYMODULE'),
+  ('mysql.connector.custom_types',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\custom_types.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.balancing',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\fabric\\balancing.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.caching',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\fabric\\caching.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\cursor.py',
+   'PYMODULE'),
+  ('mysql.connector.abstracts',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\abstracts.py',
+   'PYMODULE'),
+  ('mysql.connector.conversion',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\conversion.py',
+   'PYMODULE'),
+  ('mysql',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.pooling',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\pooling.py',
+   'PYMODULE'),
+  ('mysql.connector.optionfiles',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\optionfiles.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\configparser.py',
+   'PYMODULE'),
+  ('mysql.connector.dbapi',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\dbapi.py',
+   'PYMODULE'),
+  ('mysql.connector.constants',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.charsets',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\charsets.py',
+   'PYMODULE'),
+  ('mysql.connector.connection',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.protocol',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\protocol.py',
+   'PYMODULE'),
+  ('mysql.connector.network',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\network.py',
+   'PYMODULE'),
+  ('mysql.connector.authentication',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\authentication.py',
+   'PYMODULE'),
+  ('mysql.connector.version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\version.py',
+   'PYMODULE'),
+  ('mysql.connector.connection_cext',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\connection_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor_cext',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.errors',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\errors.py',
+   'PYMODULE'),
+  ('mysql.connector.locales',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.errorcode',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\errorcode.py',
+   'PYMODULE'),
+  ('mysql.connector.utils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\mysql\\connector\\utils.py',
+   'PYMODULE'),
+  ('tkcalendar',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\tkcalendar\\__init__.py',
+   'PYMODULE'),
+  ('tkcalendar.calendar_',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\tkcalendar\\calendar_.py',
+   'PYMODULE'),
+  ('tkcalendar.tooltip',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\tkcalendar\\tooltip.py',
+   'PYMODULE'),
+  ('tkinter.font',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\font.py',
+   'PYMODULE'),
+  ('tkcalendar.dateentry',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\tkcalendar\\dateentry.py',
+   'PYMODULE'),
+  ('sd_win', 'C:\\Users\\Procheta Bhattachary\\library\\sd_win.py', 'PYMODULE'),
+  ('mn_win', 'C:\\Users\\Procheta Bhattachary\\library\\mn_win.py', 'PYMODULE'),
+  ('sd', 'C:\\Users\\Procheta Bhattachary\\library\\sd.py', 'PYMODULE'),
+  ('fine_win',
+   'C:\\Users\\Procheta Bhattachary\\library\\fine_win.py',
+   'PYMODULE'),
+  ('bd_win', 'C:\\Users\\Procheta Bhattachary\\library\\bd_win.py', 'PYMODULE'),
+  ('delete_win',
+   'C:\\Users\\Procheta Bhattachary\\library\\delete_win.py',
+   'PYMODULE'),
+  ('update_win',
+   'C:\\Users\\Procheta Bhattachary\\library\\update_win.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('cffi',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\cgi.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('html.parser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.py33compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\py33compat.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.py27compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\py27compat.py',
+   'PYMODULE'),
+  ('setuptools.py31compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\py31compat.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.py36compat',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\py36compat.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.pep425tags',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\pep425tags.py',
+   'PYMODULE'),
+  ('setuptools.glibc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\glibc.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\yacctab.py',
+   'PYMODULE'),
+  ('pycparser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\fractions.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\procheta '
+   'bhattachary\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\constants.py',
+   'PYMODULE')])
