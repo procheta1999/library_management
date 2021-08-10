@@ -4,7 +4,7 @@ from tkinter import ttk,messagebox
 from PIL import Image,ImageTk
 from tkcalendar import DateEntry
 import mysql.connector
-
+student=' '
 def b():
     rt.destroy()
     import Project1
@@ -18,6 +18,7 @@ def bd():
 
 def log():
     global e
+    global student
     if e.get()=="" or p.get()=="":
         messagebox.showerror("Error","All fields are required")
     else:
@@ -28,10 +29,12 @@ def log():
         mycursor=db.cursor()
         mycursor.execute("select * from student_registration where email=%s and password=%s",(nm,pwd2))
         row=mycursor.fetchone()
+        print(row)
         if row is None:
             messagebox.showerror("Error","Invalid Email ID and Password")
         else:
-          messagebox.showinfo("Success", "Successfully logged in. Welcome!")
+          messagebox.showinfo("Success", "Successfully logged in. Welcome "+row[0]+" "+row[1]+" !")
+          student=row[0]+" "+row[1]
           bd()
         db.commit()
      except EXCEPTION as e:
@@ -44,9 +47,10 @@ width= rt.winfo_screenwidth()
 height= rt.winfo_screenheight()
 rt.title("Students Database")
 rt.geometry("%dx%d" % (width, height))
+rt.iconbitmap("images/open-book.ico")
 # rt.maxsize(1250,550)
 # rt.minsize(1250,550)
-bg=ImageTk.PhotoImage(file="pic3.jpg",master=rt)
+bg=ImageTk.PhotoImage(file="images/pic3.jpg",master=rt)
 bglb=Label(rt,image=bg)
 bglb.place(x=0,y=0,relwidth=1,relheight=1)
 frame1=Frame(rt,bg="white")
@@ -59,11 +63,11 @@ frame3=Frame(frame1,bg="#f6ebeb")
 frame3.place(x=20,y=110,width=790,height=400)
 t1=Label(frame3,text="Email ID:",font="Constantia 15 bold",bg="#f6ebeb")
 t1.place(x=250,y=100)
-e=ttk.Entry(frame3,font="Constantia 15 bold")
+e=Entry(frame3,font="Constantia 15 bold")
 e.place(x=250,y=130,width=250)
 t6=Label(frame3,text="Password:",font="Constantia 15 bold",bg="#f6ebeb")
 t6.place(x=250,y=170)
-p=ttk.Entry(frame3,font="Constantia 15 bold")
+p=Entry(frame3,font="Constantia 15 bold")
 p.place(x=250,y=200,width=250)
 p.config(show="*")
 b_1 = Button(frame3, text="Login",font="Constantia 10 bold", width='10', height='1', command=log)
